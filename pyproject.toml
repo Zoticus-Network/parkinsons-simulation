@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unstablefeedback"
+version = "0.1.0"
+description = "Repository containing the implementation of research done by Nathaniel Ward under the supervision of Christopher Kelly (Florida Polytechnic University)."
+license = {file = "LICENSE"}
+authors = [
+    {name = "Nathaniel Ward", email = "nathaniel@zoticus.network"},
+    {name = "Christopher Kelly", email = "ckelly@floridapoly.edu"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "stable-baselines3[extra]",
+    "myosuite==2.12.2",
+    "myoreachers",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence :: Neuroengineering :: Computational Neuroscience",
+]
