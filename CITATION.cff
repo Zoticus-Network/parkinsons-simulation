@@ -7,5 +7,7 @@ authors:
 - family-names: Kelley
   given-names: Christopher
 title: "Zoticus-Network/parkinsons-simulation: Parkinson's simulation v0.1.0-Alpha"
+repository-code: https://github.com/Zoticus-Network/parkinsons-simulation
+license: MIT
 version: v0.1.0
 date-released: 2026-10-18

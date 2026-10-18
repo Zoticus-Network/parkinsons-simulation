@@ -1,5 +1,10 @@
 # Faulty Action Gating in Over-Actuated Musculoskeletal Models
 
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.23458616"><img src="https://zenodo.org/badge/946278722.svg" alt="DOI"></a>
+</p>
+
+
 This repository contains the simulation code for studying whether faulty action gating can reproduce the motor symptoms of Parkinson's disease in biomechanically plausible, over-actuated musculoskeletal models. The implementation combines MyoSuite environments, Soft Actor Critic (SAC) reinforcement learning, delayed proprioceptive feedback, forward simulation, and a disease model that attenuates the actions applied to the physical environment while leaving the internal model unchanged.
 
 > **Research status:** This repository accompanies the BMES 2026 research abstract and is provided for research and reproducibility purposes. The DOI and final publication details will be added when they are available.
@@ -111,12 +116,22 @@ This repository is an active research implementation. Future updates will add th
 Please cite the associated BMES 2026 poster paper when using this work. The complete citation and DOI will be added here after publication.
 
 ```text
-Ward, Nathaniel, and Christopher Kelly. "Faulty Action Gating Reproduces
+Ward, Nathaniel, and Christopher Kelley. "Faulty Action Gating Reproduces
 Parkinsonian Tremor and Bradykinesia in Over-Actuated Musculoskeletal Models."
 BMES 2026 Research Abstract.
+```
+
+```bibtex
+@software{Ward_parkinsons_simulation_2026,
+	author = {Ward, Nathaniel and Kelley, Christopher},
+	month = oct,
+	title = {{Zoticus-Network/parkinsons-simulation: Parkinson's simulation v0.1.0-Alpha}},
+	version = {v0.1.0},
+	year = {2026}
+}
 ```
 
 ## License
 
 The software in this repository is released under the [MIT License](LICENSE).
-The abstract herein, "Faulty Action Gating Reproduces Parkinsonian Tremor and Bradykinesia in Over-Actuated Musculoskeletal Models," is copyrighted by Nathaniel Ward and Christopher Kelly. Copyright 2026 Nathaniel Ward and Christopher Kelly.
+The abstract herein, "Faulty Action Gating Reproduces Parkinsonian Tremor and Bradykinesia in Over-Actuated Musculoskeletal Models," is copyrighted by Nathaniel Ward and Christopher Kelley. Copyright 2026 Nathaniel Ward and Christopher Kelley.
